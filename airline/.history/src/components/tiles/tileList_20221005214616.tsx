@@ -4,6 +4,7 @@ import { Tile } from './tileListItem';
 type TileListProps = {
   airlineData: AirlineData[]
 }
+
 const TileList: FunctionComponent<TileListProps> = ({ airlineData }: TileListProps) => {
   console.log(airlineData)
   return (

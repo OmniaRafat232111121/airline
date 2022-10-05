@@ -1,9 +1,11 @@
 import React, { FunctionComponent } from 'react';
 import { AirlineData } from '../../api/airline';
 import { Tile } from './tileListItem';
+
 type TileListProps = {
   airlineData: AirlineData[]
 }
+
 const TileList: FunctionComponent<TileListProps> = ({ airlineData }: TileListProps) => {
   console.log(airlineData)
   return (

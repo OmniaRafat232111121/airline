@@ -1,6 +1,7 @@
 import React, {FunctionComponent , useContext} from 'react';
 import { AirlineAppContext } from '../context/airline-context';
 import Actions from './Actions';
+
 import HeaderComp from './header';
 import TileList from './tiles/tileList';
 
@@ -10,7 +11,7 @@ const LandingPage: FunctionComponent <{}>  = () => {
   return (
     <>
     <HeaderComp />
-     <Actions/>
+     <Actions
     <TileList airlineData={AirlineData} />
     </>
   )
