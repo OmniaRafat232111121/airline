@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AirlineData, Api } from './api/airline';
-import { AirlineAppContext } from './context/airline-context';
+import { AirlineAppContext } from './context/';
 import LandingPage from './components/landing-page';
 export const App = () => {
   const [airline, setAirline] = useState<AirlineData[]>([])
