@@ -1,0 +1,6 @@
+imp
+const LandingPage=()=>{
+    return(
+
+    )
+}
