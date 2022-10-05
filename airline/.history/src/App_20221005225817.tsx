@@ -26,7 +26,7 @@ export const App = () => {
   }
 
   return (
-    
+    >
       <AirlineAppContext.Provider value={{
       AirlineData: filterAirline,
       applyFilter: applyFilter

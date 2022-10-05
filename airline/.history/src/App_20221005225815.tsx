@@ -26,14 +26,14 @@ export const App = () => {
   }
 
   return (
-    
+    >
       <AirlineAppContext.Provider value={{
       AirlineData: filterAirline,
       applyFilter: applyFilter
     }}>
       <LandingPage />
     </AirlineAppContext.Provider>
-   
+    </div>
   
   )
 }
